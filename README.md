@@ -42,4 +42,4 @@ To run this project locally, follow these steps:
 
 Below are some screenshots of the Task Manager app:
 
-![Task Manager Screenshot](./Components/ScreenShots/Screenshot.png)
+![Task Manager Screenshot](./Components/ScreenShots/img1.png)
