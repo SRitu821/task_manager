@@ -26,7 +26,6 @@ To run this project locally, follow these steps:
 2. cd task-manager
 3. npm install
 4. npm start
-5. Open your browser and go to http://localhost:3000 to view the app.
 
 
 
@@ -42,4 +41,9 @@ To run this project locally, follow these steps:
 
 Below are some screenshots of the Task Manager app:
 
-![Task Manager Screenshot](./Components/ScreenShots/img1.png)
+![Task Manager Screenshot](./src/Components/ScreenShots/img%201.png)
+![Task Manager Screenshot](./src/Components/ScreenShots/img%202.png)
+![Task Manager Screenshot](./src/Components/ScreenShots/img%203.png)
+![Task Manager Screenshot](./src/Components/ScreenShots/img%204.png)
+
+
