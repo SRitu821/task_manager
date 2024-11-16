@@ -6,7 +6,12 @@ function Header(props) {
     <div className="Header">
       <h1> Task Manager</h1>
       <div className="btnWrapper">
-       <Button click={props.handleInput} name = 'Add' bg = '#4CC9FE' color ='white'/>
+        <Button
+          click={props.handleInput}
+          name="Add"
+          bg="#4CC9FE"
+          color="white"
+        />
       </div>
     </div>
   );

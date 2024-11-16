@@ -1,5 +1,5 @@
-.main{
-  background-color: #000B58;
+.main {
+  background-color: #1E3E62;
   width: 40vw;
   color: white;
   margin-top: 5%;
@@ -9,54 +9,118 @@
   padding: 5%;
   font-family: Arial, Helvetica, sans-serif;
 }
-.Header{
+
+.Header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.btn{
+.btn {
   width: 150px;
   height: 40px;
   padding: 10px;
   border-radius: 5px;
   border: none;
-  font-size: large; 
+  font-size: large;
 }
-.btn:hover{
+.btn:hover {
   cursor: pointer;
 }
-.InputWrapper{
+.InputWrapper {
   display: flex;
   flex-direction: column;
 }
-label{
+label {
   margin-top: 4px;
   margin-bottom: 4px;
   font-size: large;
   font-weight: 500;
 }
-.inputForm{
-border-radius: 5px;
-padding: 15px;
-border: none;
-margin-top: 4px;
-margin-bottom: 10px;
-font-size: 16px;
+.inputForm {
+  border-radius: 5px;
+  padding: 15px;
+  border: none;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
-.btn-Wrapper{
+.btn-Wrapper {
   display: flex;
   gap: 10px;
 }
-.Task{
-  background-color: white ;
+.Task {
+  background-color: white;
   padding: 10px;
   margin-top: 10px;
   border-radius: 5px;
-  color: #000B58;
+  color: #000b58;
 }
 
-@media only screen and (max-width: 450px){
-  .main{
+.searchSection {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sortSection {
+  margin: 10px 0;
+}
+
+.sortSection label {
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+select.inputForm {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+input {
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: #4cc9fe;
+  box-shadow: 0 0 5px rgba(76, 201, 254, 0.5);
+}
+
+.task-complete {
+  animation: markComplete 0.5s ease forwards;
+}
+
+@keyframes markComplete {
+  from {
+    background-color: white;
+    text-decoration: none;
+  }
+  to {
+    background-color: #d4edda;
+    text-decoration: line-through;
+  }
+}
+.TaskSection {
+  max-height: 400px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 450px) {
+  .main {
     width: 85vw;
   }
 }
