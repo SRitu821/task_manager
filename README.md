@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Task Manager Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Task Manager app that allows users to add, update, delete, search, sort, set priority, and persist tasks in the browser's local storage. 
 
-## Available Scripts
+Features include:
+- Add new tasks with a title and description.
+- Mark tasks as complete and delete tasks.
+- Search tasks by name.
+- Sort tasks based on priority or creation date.
+- Set task priorities (Low, Medium, High).
+- Persist tasks in local storage, so tasks remain even after refreshing the page.
 
-In the project directory, you can run:
+Technologies used:
+- React.js
+- CSS for styling
+- Local Storage for task persistence
 
-### `npm start`
+## Setup and Launch
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run this project locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SRitu821/task_manager
 
-### `npm test`
+2. cd task-manager
+3. npm install
+4. npm start
+5. Open your browser and go to http://localhost:3000 to view the app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Assumptions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- The task ID is generated based on the current number of tasks.
+- Tasks are persisted in the local storage, meaning they are saved even after the browser is closed.
+- There is no backend server, so the application relies solely on local storage.
+- The app is designed for a desktop web browser, with mobile responsiveness in mind.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Below are some screenshots of the Task Manager app:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Task Manager Screenshot](./Components/ScreenShots/Screenshot.png)
